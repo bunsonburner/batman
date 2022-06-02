@@ -1,12 +1,17 @@
 <!doctype html>
 <html>
 <head>
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
   <title>Batman</title>
 </head>
 <script>
 
 function toggle(){
-  var x = document.getElementById("div1");
+  var x = document.getElementById("f", "f3");
+
   if(x.style.display === "none")
   {
     x.style.display = "block";
@@ -21,8 +26,7 @@ function toggle(){
 
 <p><center> <button onclick="toggle()">Toggle</button> </center></p>
 
-  <link rel="icon" href="finger-love.png">
-  <style>
+  <style id= "f3">
   @-webkit-keyframes argh-my-eyes {
     0%   { background-color: #ff0000; }
 
@@ -34,7 +38,6 @@ function toggle(){
   }
   @keyframes argh-my-eyes {
     0%   { background-color: #ff0000; }
-
     100% { background-color: #0000ff; }
   }
   body {
@@ -51,18 +54,23 @@ function toggle(){
     <img src="batman.gif" class="centerImage" loop=infinite width="1200" height="600"/>
   </center>
 
+<!--
   <audio autoplay loop>
     <source src= "song.mp3" type="audio/mpeg">
   </audio>
-
-  <h1 class="text"> IF AUDIO DOES NOT WORK PRESS PLAY:  <audio controls>
+-->
+  <center><h1 class="text"> IF AUDIO DOES NOT WORK PRESS PLAY:  <audio controls>
       <source src="song.mp3" type="audio/mpeg">
-    </audio></h1>
+    </audio></h1></center>
+
+    <center><button type="button" style = "height: 100px;width: 150px;"> <a href="https://www.surveymonkey.com/r/KL78G5F">
+      <strong>VOTE NOW HERE</strong> </a>
+    </button></center>
+
 </div>
 
 
-<center><button type="button" style = "height: 100px;width: 150px;"> <a href="https://www.surveymonkey.com/r/KL78G5F"> VOTE NOW HERE</a>
-</button></center>
+
 
 
 
