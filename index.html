@@ -1,6 +1,27 @@
 <!doctype html>
 <html>
 <head>
+  <title>Batman</title>
+</head>
+<script>
+
+function toggle(){
+  var x = document.getElementById("div1");
+  if(x.style.display === "none")
+  {
+    x.style.display = "block";
+  }
+  else {
+    x.style.display = "none";
+  }
+}
+
+
+</script>
+
+<p><center> <button onclick="toggle()">Toggle</button> </center></p>
+
+  <link rel="icon" href="finger-love.png">
   <style>
   @-webkit-keyframes argh-my-eyes {
     0%   { background-color: #ff0000; }
@@ -16,52 +37,35 @@
 
     100% { background-color: #0000ff; }
   }
-  text
-  {
-    -webkit-animation: argh-my-eyes 0.4s infinite;
-    -moz-animation:    argh-my-eyes 0.1s infinite;
-    animation:         argh-my-eyes 0.2s infinite;
-  }
   body {
   -webkit-animation: argh-my-eyes 0.1s infinite;
   -moz-animation:    argh-my-eyes 0.1s infinite;
   animation:         argh-my-eyes 0.1s infinite;
-
 }
-
-body{
-}
-.text{
-  text-transform: uppercase;
-  background-image: linear-gradient(to right, #00F260, #f79d00, #0575E6, #64f38c);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  background-position: -0%;
-
-  animation:  infinite;
-}
-
-@keyframes animate{
-  to{
-    background-position: 100%;
-  }
-}
-
 
 </style>
+
+
+<div id="f">
   <center>
     <img src="batman.gif" class="centerImage" loop=infinite width="1200" height="600"/>
   </center>
 
   <audio autoplay loop>
     <source src= "song.mp3" type="audio/mpeg">
-    <source src= "song.ogg" type="audio/ogg">
   </audio>
-  <h1 class="text">IF AUDIO DOES NOT WORK PRESS PLAY:  <audio controls autoplay>
-      <source src="song.mp3" type="audio/mpeg">
-      <source src= "song.ogg" type="audio/ogg">
-    </audio></h1>
 
-</head>
+  <h1 class="text"> IF AUDIO DOES NOT WORK PRESS PLAY:  <audio controls>
+      <source src="song.mp3" type="audio/mpeg">
+    </audio></h1>
+</div>
+
+
+<center><button type="button" style = "height: 100px;width: 150px;"> <a href="https://www.surveymonkey.com/r/KL78G5F"> VOTE NOW HERE</a>
+</button></center>
+
+
+
+
+
 </html>

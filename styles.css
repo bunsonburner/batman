@@ -1,0 +1,37 @@
+head
+{
+backface-visibility: hidden;
+}
+body
+{
+backface-visibility: hidden;
+}
+
+
+<center>
+  <button id="ASong" onClick="playPause()">
+
+    <audio
+      src="song.mp3"
+      autoplay
+      loop
+    ></audio>
+    <a href="batman.html">
+      Load</a>
+  </button>
+
+  <script>
+    var aud = document.getElementById("ASong").children[0];
+    var isPlaying = false;
+    aud.pause();
+
+    function playPause() {
+      if (isPlaying) {
+        aud.pause();
+      } else {
+        aud.play();
+      }
+      isPlaying = !isPlaying;
+    }
+  </script>
+</center>
