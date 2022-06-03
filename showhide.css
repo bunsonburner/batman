@@ -22,24 +22,24 @@ body {
   font-size: 50px;
   line-height: 62px;
 }
-
-.hunter1{
-  float:left;
-  padding-right: 350px;
-  padding-left: 350px;
-}
-.hunter2{
-  float:right;
-  padding-right: 350px;
-  padding-left:350px;
-  padding-bottom: 300px;
-}
-.hunter3{
-  padding-right: 1150px;
-
+.font{
+    font-family: "Oswald";
+    font-style: italic;
+    align-content: center;
 }
 
 .button{
   font-family: "Oswald";
   font-style: italic;
+}
+.content{
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+.content img{
+  margin-right: 10px;
+  display:block;
+  align-content: center;
+  text-align: center;
 }

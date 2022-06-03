@@ -8,10 +8,10 @@
   <link rel="stylesheet" href="showhide.css">
   <title>Batman</title>
   <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="showhide.css" />
 </head>
+
   <div id="disappears">
-<button onclick="start()" class = "block" style= font-size:40px; >Click here to start voting now 💕</button></span>
+<button onclick="start()" class = "block" style= font-size:40px; >Click here to start voting now 💕</button>
     <audio
       src="song.mp3"
       autoplay
@@ -19,32 +19,24 @@
     ></audio>
   </div>
 
-
-
 <script>
-
 function start() {
 document.getElementById("disappears").innerHTML = "";
 var music = new Audio('song.mp3')
 music.play();
 }
-
 function toggle(){
   var x = document.getElementById("f");
-
-  if(x.style.display === "none")
-  {
+  if(x.style.display === "none"){
     x.style.display = "block";
   }
   else {
     x.style.display = "none";
   }
 }
-
-
 </script>
-<body id = "f" class = "sock">
 
+<body>
 
   <style>
 
@@ -69,30 +61,22 @@ function toggle(){
 }
 </style>
 
-<div id="f">
+<div>
   <center>
     <img src="batman.gif" class="centerImage" loop=infinite width="1200" height="600"/>
   </center>
 
-<!--
-  <audio autoplay loop>
-    <source src= "song.mp3" type="audio/mpeg">
-  </audio>
+<div class = "content">
+  <img src="laughing.gif" width="400" height="200" loop= infinite/>
 
-  <center><h1 class="text"> IF AUDIO DOES NOT WORK PRESS PLAY:  <audio controls>
-      <source src="song.mp3" type="audio/mpeg">
-    </audio></h1></center>
--->
-<div class = "hunter1">
-  <img centerImage float = "left" src="laughing.gif" width="400" height="200" loop= infinite/>
+
+    <center><form action="https://www.surveymonkey.com/r/KL78G5F" method="get" target="_blank">
+      <button class = "font" type="submit" style="font-size:33px; height:125px; width:200px;" >
+        <strong>VOTE NOW HERE</strong></button></form></center>
+
+  <img src="laughing2.gif" width="400" height="200" loop= infinite/>
 </div>
 
-    <center><form class= "hunter3" action="https://www.surveymonkey.com/r/KL78G5F" method="get" target="_blank">
-      <button type="submit" style=font-size:33px; "height:125px; width:200px;" ><strong>VOTE NOW HERE</strong></button></form></center>
-
-<div class= "hunter2">
-  <img centerImage float = "left" src="laughing2.gif" width="400" height="200" loop= infinite/>
-</div>
 
 </div>
 
